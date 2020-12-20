@@ -6,7 +6,7 @@ const Header = () => (
     <h1 className='display-1 text-center'>
       LASD 2021
     </h1>
-    <h2 className='text-center display-5'>
+    <h2 className='text-center'>
       5th International Conference on <strong>Lean and Agile Software Development</strong>
     </h2>
     <p className='text-center lead'>23 January, 2021, Online event<sup>*</sup></p>

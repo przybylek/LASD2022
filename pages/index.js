@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Header from '../sections/Header'
 import About from '../sections/About'
 import PastConferences from '../sections/PastConferences'
+import Keynotes from '../sections/Keynotes'
 import Sponsors from '../sections/Sponsors'
 import TopicAndInterests from '../sections/TopicsAndInterests'
 
@@ -19,9 +20,10 @@ export default function Home() {
       <Header />
       <About />
       <TopicAndInterests />
+      <Keynotes />
       <PastConferences />
       <Sponsors />
-      
+
     </Container>
   )
 }
