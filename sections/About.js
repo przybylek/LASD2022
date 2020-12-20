@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 
 const About = () => (
   <Container>
-    <h2>About</h2>
+    <h2 className='display-4'>About</h2>
     <p>
       The evolution of software development methods is driven by the perennial quest on how to organize projects for better productivity and better quality. The traditional software development projects, which followed well-defined plans and detailed documentations, were unable to meet the dynamism, unpredictability and changing conditions that characterize today's competitive business environment. Agile methods overcame these limits by considering that requirements are dynamic, while customers are unable to definitively state their needs up front.
       Later on, the software industry also started to look at practices from lean manufacturing as a means of further waste elimination by removing all non-value-adding activities.
