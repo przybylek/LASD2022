@@ -12,13 +12,13 @@ const About = () => (
     </p>
     <p>
       Besides, even though agile methods were originally designed for single, small teams, many organizations have increasingly adopted them in large-scale projects with multiple development teams. Scaling agile software development is complex and brings new challenges, including:
-      <ul>
-        <li>coordination and communication between teams;</li>
-        <li>coordination of distributed projects;</li>
-        <li>lack of up-front architecture;</li>
-        <li>adoption of agile methods in units other than software development departments, such as product management, marketing, and sales.</li>
-      </ul>
     </p>
+    <ul>
+      <li>coordination and communication between teams;</li>
+      <li>coordination of distributed projects;</li>
+      <li>lack of up-front architecture;</li>
+      <li>adoption of agile methods in units other than software development departments, such as product management, marketing, and sales.</li>
+    </ul>
     <p>
       The objective of LASD is to extend the state-of-the-art in lean and agile software development and spread best practices and stories of successful transitions. Our conference has become a prominent forum where practitioners, researchers, and academics meet to share and discuss their concerns, experience, and research findings.
     </p>

@@ -9,8 +9,13 @@ import Sponsors from '../sections/Sponsors'
 import TopicAndInterests from '../sections/TopicsAndInterests'
 import Submissions from '../sections/Submissions'
 import ImportantDates from '../sections/ImportantDates'
+import Chairs from '../sections/Chairs'
+import Committee from '../sections/Committee'
+import Reviewers from '../sections/Reviewers'
 
-export default function Home() {
+import { readCsv } from '../utils'
+
+export default function Home({ chairs, committee, reviewers }) {
   return (
     <Container fluid>
       <Head>
@@ -24,9 +29,21 @@ export default function Home() {
       <Submissions />
       <ImportantDates />
       <Keynotes />
+      <Chairs people={chairs} />
+      <Committee people={committee} />
+      <Reviewers people={reviewers} />
       <PastConferences />
       <Sponsors />
-
     </Container>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      chairs: readCsv('./data/chairs.csv'),
+      committee: readCsv('./data/committee.csv').slice(1),
+      reviewers: readCsv('./data/reviewers.csv').slice(1),
+    }
+  }
 }
