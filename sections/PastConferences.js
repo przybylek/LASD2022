@@ -5,11 +5,11 @@ import Card from 'react-bootstrap/Card'
 
 
 const PastConferences = () => (
-  <Container>
+  <Container fluid="md">
     <h2 className="display-4">Past Conferences</h2>
     <Row className="justify-content-md-center m-1">
-      <Col md='auto' className="m-3">
-        <Card style={{ width: '18rem' }}>
+      <Col md='auto' className="m-2">
+        <Card style={{ width: '14rem' }} className="mx-auto">
           <Card.Body>
             <Card.Title>LASD@FedCSIS'20</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">Sofia 2020</Card.Subtitle>
@@ -18,8 +18,9 @@ const PastConferences = () => (
           </Card.Body>
         </Card>
       </Col>
-      <Col md='auto' className="m-3">
-        <Card style={{ width: '18rem' }}>
+
+      <Col md='auto' className="m-2" sm>
+        <Card style={{ width: '14rem' }} className="mx-auto">
           <Card.Body>
             <Card.Title>LASD@FedCSIS'19</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">Leipzig 2019</Card.Subtitle>
@@ -28,11 +29,9 @@ const PastConferences = () => (
           </Card.Body>
         </Card>
       </Col>
-    </Row>
 
-    <Row className="justify-content-md-center m-1">
-      <Col md='auto' className="m-3">
-        <Card style={{ width: '18rem' }}>
+      <Col md='auto' className="m-2">
+        <Card style={{ width: '14rem' }} className="mx-auto">
           <Card.Body>
             <Card.Title>LASD@FedCSIS'18</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">Poznan 2018</Card.Subtitle>
@@ -42,8 +41,8 @@ const PastConferences = () => (
         </Card>
       </Col>
    
-      <Col md='auto' className="m-3">
-        <Card style={{ width: '18rem' }}>
+      <Col md='auto' className="m-2">
+        <Card style={{ width: '14rem' }} className="mx-auto">
           <Card.Body>
             <Card.Title>LASD@FedCSIS'17</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">Prague 2017</Card.Subtitle>
