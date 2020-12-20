@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import styles from '../styles/ImportantDates.module.css'
 
 const ImportantDates = () => (
   <Container className="bg-light">
@@ -8,7 +9,7 @@ const ImportantDates = () => (
     <h2 className='display-4'>Important dates</h2>
     <Row>
       <Col className="md-6">
-        <ul className="timeline">
+        <ul className={styles.timeline}>
             <ScheduleDateItem date="2020-10-01" text="Paper submission"/>
             <ScheduleDateItem date="2020-11-01" text="Reviews due"/>
             <ScheduleDateItem date="2020-11-04" text="Author notification"/>

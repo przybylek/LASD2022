@@ -2,8 +2,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
 const Navigation = () => (
-  // Sticky isn't supported in all browsers.
-  <Navbar sticky='top' bg='light' expand='xl'>
+  <Navbar fixed='top' bg='light' expand='xl'>
     <Navbar.Brand>LASD 2020</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbar-nav" />
     <Navbar.Collapse id="navbar-nav">
