@@ -3,7 +3,8 @@ import PeopleList from '../components/PeopleList'
 
 const Reviewers = ({ people }) => (
   <Container>
-    <h2 className='display-4'>Reviewers</h2>
+    <a className='target' id='reviewers'/>
+    <h2 className='display-4 anchor'>Reviewers</h2>
     <PeopleList people={people} />
   </Container>
 )

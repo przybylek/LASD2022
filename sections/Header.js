@@ -3,7 +3,8 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 
 const Header = () => (
   <Jumbotron>
-    <h1 className='display-1 text-center'>
+    <a className='target' id='home'/>
+    <h1 className='display-1 text-center anchor'>
       LASD 2021
     </h1>
     <h2 className='text-center'>

@@ -6,7 +6,8 @@ import Col from 'react-bootstrap/Col'
 
 const Submissions = () => (
   <Container>
-    <h2 className='display-4'>Submissions</h2>
+    <a className='target' id='submissions'/>
+    <h2 className='display-4 anchor'>Submissions</h2>
     <p>
       We invite research papers in two categories: Full Papers up to 18 pages, and Short Papers up to 8 pages. Papers must be in English and present original, not already published research.
       Authors should consult Springer's authors' guidelines and use their proceedings templates, either for LaTeX or for Word, for the preparation of their papers:

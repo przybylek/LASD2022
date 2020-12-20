@@ -2,7 +2,8 @@ import Container from 'react-bootstrap/Container'
 
 const KeynoteSpeakers = () => (
   <Container>
-    <h2 className='display-4'>Keynotes</h2>
+    <a className='target' id='keynotes'/>
+    <h2 className='display-4 anchor'>Keynotes</h2>
     <h3>Philipp Diebold</h3>
     <dl>
       <dt>Keynote title</dt>

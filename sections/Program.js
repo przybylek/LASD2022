@@ -3,7 +3,8 @@ import Table from 'react-bootstrap/Table'
 
 const Program = () => (
   <Container className="bg-light">
-    <h2 className='display-4'>Program</h2>
+    <a className='target' id='program'/>
+    <h2 className='display-4 anchor'>Program</h2>
     <Table bordered>
       <tbody>
         <tr><th className='text-center table-primary' colSpan={2}>Session 1 (Chair: <em>...</em>)</th></tr>
