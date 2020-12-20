@@ -7,13 +7,13 @@ const ImportantDates = () => (
     <h2 className='display-4'>Important dates</h2>
     <Row>
       <Col className="md-6">
-        <ul class="timeline">
-            <ScheduleDateItem date="10-01-2020" text="Paper submission"/>
-            <ScheduleDateItem date="11-01-2020" text="Reviews due"/>
-            <ScheduleDateItem date="11-04-2020" text="Author notification"/>
-            <ScheduleDateItem date="11-18-2020" text="Final paper submission"/>
-            <ScheduleDateItem date="12-31-2020" text="Pre-recorded video submission"/>
-            <ScheduleDateItem date="01-23-2021" text="Conference date"/>
+        <ul className="timeline">
+            <ScheduleDateItem date="2020-10-01" text="Paper submission"/>
+            <ScheduleDateItem date="2020-11-01" text="Reviews due"/>
+            <ScheduleDateItem date="2020-11-04" text="Author notification"/>
+            <ScheduleDateItem date="2020-11-18" text="Final paper submission"/>
+            <ScheduleDateItem date="2020-12-31" text="Pre-recorded video submission"/>
+            <ScheduleDateItem date="2021-01-23" text="Conference date"/>
         </ul>
       </Col>
     </Row>
