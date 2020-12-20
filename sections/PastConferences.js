@@ -6,7 +6,8 @@ import Card from 'react-bootstrap/Card'
 
 const PastConferences = () => (
   <Container fluid="md">
-    <h2 className="display-4">Past Conferences</h2>
+    <a className='target' id='conferences'/>
+    <h2 className="display-4 anchor">Past Conferences</h2>
     <Row className="justify-content-md-center m-1">
       <Col md='auto' className="m-2">
         <Card style={{ width: '14rem' }} className="mx-auto">
@@ -40,7 +41,7 @@ const PastConferences = () => (
           </Card.Body>
         </Card>
       </Col>
-   
+
       <Col md='auto' className="m-2">
         <Card style={{ width: '14rem' }} className="mx-auto">
           <Card.Body>

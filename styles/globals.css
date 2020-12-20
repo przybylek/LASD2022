@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+a.target {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}

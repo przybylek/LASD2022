@@ -3,7 +3,8 @@ import ListGroup from 'react-bootstrap/ListGroup'
 
 const TopicAndInterests = () => (
   <Container className="bg-light">
-    <h2 className="display-4">Topics and Interests</h2>
+    <a className='target' id='topics'/>
+    <h2 className="display-4 anchor">Topics and Interests</h2>
       <ListGroup variant='flush' >
         <ListGroup.Item className="bg-light"><i className="fas fa-check-square"/> Agile teams during Covid-19</ListGroup.Item>
         <ListGroup.Item className="bg-light"><i className="fas fa-check-square"/> Combining lean and agile methods for software development</ListGroup.Item>

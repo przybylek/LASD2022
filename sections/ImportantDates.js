@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row'
 
 const ImportantDates = () => (
   <Container className="bg-light">
+    <a className='target' id='dates'/>
     <h2 className='display-4'>Important dates</h2>
     <Row>
       <Col className="md-6">
@@ -30,10 +31,10 @@ function ScheduleDateItem(props){
 
   //actual date
   let today = new Date();
-  
+
   var schedule_text;
   if (today.getTime() > schedule_date.getTime()){
-    schedule_text = <del>{text}</del>; 
+    schedule_text = <del>{text}</del>;
   }
   else{
     schedule_text = text;

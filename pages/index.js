@@ -13,6 +13,7 @@ import Chairs from '../sections/Chairs'
 import Committee from '../sections/Committee'
 import Reviewers from '../sections/Reviewers'
 import Program from '../sections/Program'
+import Navigation from '../components/Navigation'
 
 import { readCsv } from '../utils'
 
@@ -23,6 +24,8 @@ export default function Home({ chairs, committee, reviewers }) {
         <title>LASD Conference 2020</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"></link>
       </Head>
+
+      <Navigation />
 
       <Header />
       <About />
