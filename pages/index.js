@@ -12,6 +12,7 @@ import ImportantDates from '../sections/ImportantDates'
 import Chairs from '../sections/Chairs'
 import Committee from '../sections/Committee'
 import Reviewers from '../sections/Reviewers'
+import Program from '../sections/Program'
 
 import { readCsv } from '../utils'
 
@@ -29,6 +30,7 @@ export default function Home({ chairs, committee, reviewers }) {
       <Submissions />
       <ImportantDates />
       <Keynotes />
+      <Program />
       <Chairs people={chairs} />
       <Committee people={committee} />
       <Reviewers people={reviewers} />
