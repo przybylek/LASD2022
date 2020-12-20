@@ -22,13 +22,7 @@ const ImportantDates = () => (
 
 function ScheduleDateItem(props){
   const text = props.text;
-
   let schedule_date = new Date(props.date);
-  //date of schedule item
-  const date_day = parseInt(props.date.split('.')[0]);
-  const date_month = parseInt(props.date.split('.')[1])-1;
-  const date_year = parseInt(props.date.split('.')[2]);
-  
 
   const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
@@ -49,4 +43,5 @@ function ScheduleDateItem(props){
 
   return <li><h5>{schedule_text}</h5><h5 className="float-right">{schedule_date}</h5></li>;;
 }
+
 export default ImportantDates
