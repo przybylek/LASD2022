@@ -7,7 +7,7 @@ import PastConferences from '../sections/PastConferences'
 import Keynotes from '../sections/Keynotes'
 import Sponsors from '../sections/Sponsors'
 import TopicAndInterests from '../sections/TopicsAndInterests'
-
+import Submissions from '../sections/Submissions'
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
       <Header />
       <About />
       <TopicAndInterests />
+      <Submissions />
       <Keynotes />
       <PastConferences />
       <Sponsors />
