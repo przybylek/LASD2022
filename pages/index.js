@@ -8,6 +8,7 @@ import Keynotes from '../sections/Keynotes'
 import Sponsors from '../sections/Sponsors'
 import TopicAndInterests from '../sections/TopicsAndInterests'
 import Submissions from '../sections/Submissions'
+import ImportantDates from '../sections/ImportantDates'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <About />
       <TopicAndInterests />
       <Submissions />
+      <ImportantDates />
       <Keynotes />
       <PastConferences />
       <Sponsors />
