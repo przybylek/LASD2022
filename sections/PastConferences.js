@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card'
 
 
 const PastConferences = () => (
-  <Container fluid="md">
+  <Container fluid="md" className="bg-light">
     <h2 className="display-4">Past Conferences</h2>
     <Row className="justify-content-md-center m-1">
       <Col md='auto' className="m-2">

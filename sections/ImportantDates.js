@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
 const ImportantDates = () => (
-  <Container>
+  <Container className="bg-light">
     <h2 className='display-4'>Important dates</h2>
     <Row>
       <Col className="md-6">
