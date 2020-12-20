@@ -21,13 +21,15 @@ const Submissions = () => (
       Submission is done through the EasyChair Conference System. After the paper submission has been successfully completed, authors will receive an automatic confirmation e-mail.
     </p>
     <p>
-      <Button href='https://easychair.org/conferences/?conf=lasd2021'>Submit a paper</Button>
+      <Row className="justify-content-center">
+        <Button className="btn-lg" href='https://easychair.org/conferences/?conf=lasd2021'>Submit a paper</Button>
+      </Row>
     </p>
     <p>
       Each submission will be reviewed by at least three program committee members. To facilitate the double-blind reviewing, authors are kindly requested to provide the paper WITHOUT any reference to any of the authors, including the authors' personal details, the acknowledgments section of the paper and any other reference that may disclose the authors' identity.
     </p>
-    <Row>
-    <Col xs={4}>
+    <Row className="justify-content-center">
+      <Col xs={12} md={6}>
         <Image fluid src='/LNBIP_logo.png' alt='logo LNBIP'/>
       </Col>
       <Col>
