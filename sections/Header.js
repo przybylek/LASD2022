@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 
 const Header = () => (
-  <Jumbotron>
+  <Jumbotron style={{ backgroundImage: `url(/landingPage.jpg)`, opacity: 0.5 }}>
     <a className='target' id='home'/>
     <h1 className='display-1 text-center anchor'>
       LASD 2021
