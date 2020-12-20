@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 const Sponsors = () => (
-  <Container>
+  <Container className="bg-light">
     <h2 className='display-4'>Sponsors</h2>
     <Row>
       <Col as='p'>

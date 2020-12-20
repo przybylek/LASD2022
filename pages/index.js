@@ -34,8 +34,8 @@ export default function Home({ chairs, committee, reviewers }) {
       <Chairs people={chairs} />
       <Committee people={committee} />
       <Reviewers people={reviewers} />
-      <PastConferences />
       <Sponsors />
+      <PastConferences />
     </Container>
   )
 }
