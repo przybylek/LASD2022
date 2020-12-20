@@ -19,7 +19,7 @@ import { readCsv } from '../utils'
 
 export default function Home({ chairs, committee, reviewers }) {
   return (
-    <Container fluid>
+    <Container fluid className='px-0'>
       <Head>
         <title>LASD Conference 2020</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"></link>
