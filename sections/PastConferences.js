@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card'
 
 const PastConferences = () => (
   <Container>
+    <h2 className="display-4">Past Conferences</h2>
     <Row className="justify-content-md-center m-1">
       <Col md='auto' className="m-3">
         <Card style={{ width: '18rem' }}>
