@@ -11,9 +11,9 @@ const Header = () => (
       5th International Conference on <strong>Lean and Agile Software Development</strong>
     </h2>
     <p className='text-center lead'>23 January, 2021, Online event<sup>*</sup></p>
-    <p className='text-center text-info font-italic'>Free of charge, with Springer LNBIP proceedings!</p>
-    <p className='text-center text-info font-italic'>Corresponding authors of 20 top-rated accepted papers will get complimentary 1 year membership in <a className='LandinPage__url' href='https://www.agilealliance.org'>Agile Alliance</a>!</p>
-    <p className='text-center'><small><sup>*</sup>The conference will consist of pre-recorded presentations and live keynote and Q&A sessions</small></p>
+    <p className='text-center lead text-info font-italic'>Free of charge, with Springer LNBIP proceedings!</p>
+    <p className='text-center lead text-info font-italic'>Corresponding authors of 20 top-rated accepted papers will get complimentary 1 year membership in <a className='LandinPage__url' href='https://www.agilealliance.org'>Agile Alliance</a>!</p>
+    <p className='text-center lead'><small><sup>*</sup>The conference will consist of pre-recorded presentations and live keynote and Q&A sessions.</small></p>
   </Jumbotron>
 )
 
