@@ -50,15 +50,15 @@ const Submissions = () => (
     </p>
     <dl>
       <dt>Zoom</dt>
-      <dd><a href="https://support.zoom.us/hc/en-us/articles/201362473-Local-Recording">Local recording</a>, <a href="https://ieeetv.ieee.org/mobile/video/recording-your-presentation-with-zoom">IEEE.tv</a></dd>
+      <dd className="ml-4"><a href="https://support.zoom.us/hc/en-us/articles/201362473-Local-Recording">Local recording</a>, <a href="https://ieeetv.ieee.org/mobile/video/recording-your-presentation-with-zoom">IEEE.tv</a></dd>
       <dt>PowerPoint</dt>
-      <dd><a href="https://support.microsoft.com/en-us/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c?ui=en-us&rs=en-us&ad=us">Record a slide show with narration and slide timings</a>, <a href="https://www.youtube.com/watch?v=D8JV3w4TOVw">How to Make a Video in PowerPoint</a></dd>
+      <dd className="ml-4"><a href="https://support.microsoft.com/en-us/office/record-a-slide-show-with-narration-and-slide-timings-0b9502c6-5f6c-40ae-b1e7-e47d8741161c?ui=en-us&rs=en-us&ad=us">Record a slide show with narration and slide timings</a>, <a href="https://www.youtube.com/watch?v=D8JV3w4TOVw">How to Make a Video in PowerPoint</a></dd>
       <dt>KeyNote</dt>
-      <dd><a href="https://www.youtube.com/watch?v=fe280TjbAXw">How To Record & Export High-Quality Videos</a></dd>
+      <dd className="ml-4"><a href="https://www.youtube.com/watch?v=fe280TjbAXw">How To Record & Export High-Quality Videos</a></dd>
       <dt>OBS Studio</dt>
-      <dd><a href="https://obsproject.com">obsproject.com</a></dd>
+      <dd className="ml-4"><a href="https://obsproject.com">obsproject.com</a></dd>
       <dt>CamStudio</dt>
-      <dd><a href="https://camstudio.org">camstudio.org</a></dd>
+      <dd className="ml-4"><a href="https://camstudio.org">camstudio.org</a></dd>
     </dl>
 
   </Container>
