@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 import styles from '../styles/ImportantDates.module.css'
 
 const ImportantDates = () => (
-  <Container className="bg-light">
+  <Container className="bg-light section">
     <a className='target' id='dates'/>
     <h2 className='display-4'>Important dates</h2>
     <Row>

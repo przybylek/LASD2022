@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container'
 
 const About = () => (
-  <Container>
+  <Container className='section'>
     <a className='target' id='about'/>
     <h2 className='display-4 anchor'>About</h2>
     <p>

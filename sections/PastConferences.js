@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card'
 
 
 const PastConferences = () => (
-  <Container fluid="md">
+  <Container fluid="md" className='section'>
     <a className='target' id='conferences'/>
     <h2 className="display-4 anchor">Past Conferences</h2>
     <Row className="justify-content-md-center m-1">

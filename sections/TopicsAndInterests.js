@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 import ListGroup from 'react-bootstrap/ListGroup'
 
 const TopicAndInterests = () => (
-  <Container className="bg-light">
+  <Container className="bg-light section">
     <a className='target' id='topics'/>
     <h2 className="display-4 anchor">Topics and Interests</h2>
       <ListGroup variant='flush' >

@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Table from 'react-bootstrap/Table'
 
 const Program = () => (
-  <Container className="bg-light">
+  <Container className="bg-light section">
     <a className='target' id='program'/>
     <h2 className='display-4 anchor'>Program</h2>
     <Table bordered>
