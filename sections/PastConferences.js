@@ -38,12 +38,12 @@ const PastConferences = () => (
     <Row className="justify-content-md-center m-1">
       {conferences.map(c => (
       <Col key={c.title} md='auto' className="m-2">
-        <Card style={{ width: '14.5rem' }} className="mx-auto">
+        <Card style={{ width: '14rem' }} className="mx-auto">
           <Card.Body>
             <Card.Title>{c.title}</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">{c.location}</Card.Subtitle>
             <Card.Link href={c.website}>Website</Card.Link>
-            <Card.Link href={c.proceedings}>Proceedings</Card.Link>
+            <Card.Link href={c.proceedings} className="ml-2">Proceedings</Card.Link>
           </Card.Body>
         </Card>
       </Col>
