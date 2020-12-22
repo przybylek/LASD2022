@@ -14,9 +14,7 @@ const Navigation = () => (
         <Nav.Link href='#dates'>Dates </Nav.Link>
         <Nav.Link href='#keynotes'>Keynotes</Nav.Link>
         <Nav.Link href='#program'>Program</Nav.Link>
-        <Nav.Link href='#chairs'>Chairs</Nav.Link>
-        <Nav.Link href='#committee'>Committee</Nav.Link>
-        <Nav.Link href='#reviewers'>Reviewers</Nav.Link>
+        <Nav.Link href='#chairs'>Committee</Nav.Link>
         <Nav.Link href='#sponsors'>Sponsors</Nav.Link>
         <Nav.Link href='#conferences'>Conferences</Nav.Link>
       </Nav>
