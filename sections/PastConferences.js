@@ -37,7 +37,7 @@ const PastConferences = () => (
     <h2 className="display-4 anchor">Past Conferences</h2>
     <Row className="justify-content-md-center m-1">
       {conferences.map(c => (
-      <Col md='auto' className="m-2">
+      <Col key={c.title} md='auto' className="m-2">
         <Card style={{ width: '14.5rem' }} className="mx-auto">
           <Card.Body>
             <Card.Title>{c.title}</Card.Title>
