@@ -7,14 +7,15 @@ First, installs all the dependencies listed within package.json in the local nod
 yarn install
 ```
 
-Then, edit package.json and change:
-```
-"dev": "next dev",
-```
-to
+Then, edit package.json and provide the IP address of your server or change:
 ```
 "dev": "next dev -H yourServerIP",
 ```
+to
+```
+"dev": "next dev",
+```
+
 Finally, run the development server:
 
 ```bash
