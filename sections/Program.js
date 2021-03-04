@@ -5,6 +5,16 @@ const Program = () => (
   <Container className="bg-light section">
     <a className='target' id='program'/>
     <h2 className='display-4 anchor'>Program</h2>
+
+    <h3>To be announced later...</h3>
+
+  </Container>
+)
+
+export default Program
+
+
+/*
     <Table bordered>
       <tbody>
         <tr><th className='text-center table-primary' colSpan={2}>Session 1 (Chair: <em>...</em>)</th></tr>
@@ -36,7 +46,5 @@ const Program = () => (
         <tr><td className='text-nowrap'>15:40 - 15:50</td><td>Conference closing </td></tr>
       </tbody>
     </Table>
-  </Container>
-)
+*/
 
-export default Program

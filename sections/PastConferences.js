@@ -5,6 +5,12 @@ import Card from 'react-bootstrap/Card'
 
 const conferences = [
   {
+    title: "LASD'21",
+    location: "Virtual Event 2021",
+    website: "https://lasd.pl",
+    proceedings: "https://link.springer.com/book/10.1007/978-3-030-67084-9",
+  },
+  {
     title: "LASD@FedCSIS'20",
     location: "Sofia 2020",
     website: "https://www.fedcsis.org/2020/lasd",

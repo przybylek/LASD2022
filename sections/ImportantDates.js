@@ -10,12 +10,12 @@ const ImportantDates = () => (
     <Row>
       <Col className="md-6">
         <ul className={styles.timeline}>
-            <ScheduleDateItem date="2020-10-01" text="Paper submission"/>
-            <ScheduleDateItem date="2020-11-01" text="Reviews due"/>
-            <ScheduleDateItem date="2020-11-04" text="Author notification"/>
-            <ScheduleDateItem date="2020-11-18" text="Final paper submission"/>
-            <ScheduleDateItem date="2020-12-31" text="Pre-recorded video submission"/>
-            <ScheduleDateItem date="2021-01-23" text="Conference date"/>
+            <ScheduleDateItem date="2021-10-01" text="Paper submission"/>
+            <ScheduleDateItem date="2021-10-31" text="Reviews due"/>
+            <ScheduleDateItem date="2021-11-04" text="Author notification"/>
+            <ScheduleDateItem date="2021-11-18" text="Final paper submission"/>
+            <ScheduleDateItem date="2021-12-31" text="Pre-recorded video submission"/>
+            <ScheduleDateItem date="2022-01-22" text="Conference date"/>
         </ul>
       </Col>
     </Row>

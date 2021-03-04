@@ -4,6 +4,16 @@ const KeynoteSpeakers = () => (
   <Container className='section'>
     <a className='target' id='keynotes'/>
     <h2 className='display-4 anchor'>Keynotes</h2>
+
+<h3>To be announced later...</h3>
+
+  </Container>
+)
+
+export default KeynoteSpeakers
+
+
+/*
     <h3>Philipp Diebold</h3>
     <dl>
       <dt>Keynote title</dt>
@@ -48,7 +58,5 @@ const KeynoteSpeakers = () => (
         </p>
       </dd>
     </dl>
-  </Container>
-)
+*/
 
-export default KeynoteSpeakers
