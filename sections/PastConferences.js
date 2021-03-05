@@ -48,8 +48,8 @@ const PastConferences = () => (
           <Card.Body>
             <Card.Title>{c.title}</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">{c.location}</Card.Subtitle>
-            <Card.Link href={c.website}>Website</Card.Link>
-            <Card.Link href={c.proceedings} className="ml-2">Proceedings</Card.Link>
+            <Card.Link href={c.website} className="badge badge-light text-primary">Website</Card.Link>
+            <Card.Link href={c.proceedings} className="ml-2 badge badge-light text-primary">Proceedings</Card.Link>
           </Card.Body>
         </Card>
       </Col>
