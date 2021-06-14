@@ -6,6 +6,13 @@ const KeynoteSpeakers = () => (
     <h2 className='display-4 anchor'>Keynotes</h2>
 
     <h3>Markus Borg</h3>
+    <dl>
+      <dt>Keynote title</dt>
+      <dd>
+        To be announced later...
+      </dd>
+    </dl>
+
 
     <h3>Raman Ramsin</h3>
     <dl>
