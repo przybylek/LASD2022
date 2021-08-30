@@ -40,7 +40,7 @@ const Submissions = () => (
       </Col>
     </Row>
     <p>
-      An extended version of best papers will be forwarded for further procedure in Computer Science and Information Systems (<a href="http://www.comsis.org">ComSIS</a>, IF: 0.927).
+      An extended version of the best papers will be forwarded for further procedure in <em>Computer Science and Information Systems</em> (<a href="http://www.comsis.org">ComSIS</a>, IF: 1.167) and <em>Journal of Computer Languages</em> (<a href="https://www.journals.elsevier.com/journal-of-computer-languages">Cola</a>, IF: 1.271).
     </p>
     <p>
       Corresponding authors of accepted papers are required to upload a pre-recorded video of their paper presentation to YouTube or other video-sharing platform and send the uploaded video link via email to the conference chair. The presentations will be available 2 weeks before the conference. During the conference, the authors must be available online to interact with attendees for questions and answers.
