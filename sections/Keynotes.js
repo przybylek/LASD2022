@@ -9,7 +9,7 @@ const KeynoteSpeakers = () => (
     <dl>
       <dt>Keynote title</dt>
       <dd>
-        To be announced later...
+        Agility in Software 2.0 – Notebook Interfaces and MLOps
       </dd>
     </dl>
 
