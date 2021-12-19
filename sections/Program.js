@@ -6,7 +6,37 @@ const Program = () => (
     <a className='target' id='program'/>
     <h2 className='display-4 anchor'>Program</h2>
 
-    <h3>To be announced later...</h3>
+    <Table bordered>
+      <tbody>	
+        <tr className='text-center table-primary'><th>Saturday, Jan. 23</th><th>Session 1 (Chair: <em>...</em>)</th></tr>
+		<tr><td className='text-nowrap'>11:05 - 11:10</td><td>Connectivity and Webex testing</td></tr>
+        <tr><td className='text-nowrap'>11:10 - 11:20</td><td>Conference opening; <em>Adam Przybyłek</em></td></tr>
+        <tr><td className='text-nowrap'>11:20 - 12:15</td><td>Promises of Model-Driven Development in an Agile Context; <em>Raman Ramsin</em></td></tr>
+        <tr><td className='text-nowrap'>12:15 - 13:00</td><td>Q&A:
+          <ul>
+			<li><a href=''>How a 4-day Work Week and Remote Work affect Agile Software Development Teams</a><br /><em>Julia Topp, Jan Hendrik Hille, Michael Neumann and David Mötefindt</em></li>
+			<li><a href=''>Modeling and model transformation as a service: Towards an agile approach to model-driven development</a><br /><em>Adel Vahdati and Raman Ramsin</em></li>
+			<li><a href=''>Towards Agile Mutation Testing using Branch Coverage based Prioritization Technique</a><br /><em>Sangharatna Godboley and Durga Prasad Mohapatra</em></li>
+			<li><a href=''>Agility based Coverage Improvement</a><br /><em>Swadhin Kumar Barisal, Arpita Dutta, Sangharatna Godboley, Bibhudatta Sahoo and Durga Prasad Mohapatra</em></li>
+			<li><a href=''>A Complete Unit Test Framework for Agile Software Development</a><br /><em>Arpita Dutta</em></li>
+          </ul>
+        </td></tr>
+        <tr><th className='text-center table-secondary' colSpan={2}>Break </th></tr>
+        <tr className='text-center table-primary'><th>Saturday, Jan. 23</th><th>Session 2 (Chair: <em>...</em>)</th></tr>
+        <tr><td className='text-nowrap'>14:00 - 14:55</td><td>Agility in Software 2.0 – Notebook Interfaces and MLOps with Buttresses and Rebars <br /><em>Markus Borg</em></td></tr>
+        <tr><td className='text-nowrap'>14:55 - 15:40</td><td>Q&A:
+          <ul>
+			<li><a href=''>Impact of Turkish National Culture on Agile Software Development in Turkey</a><br /><em>Aysegul Gelmis, Necmettin Ozkan, Ali J. Ahmad and Mehmet Guray Guler</em></li>
+			<li><a href=''>The Integrated List of Agile Practices - A Tertiary Study</a><br /><em>Michael Neumann</em></li>
+			<li><a href=''>Develop sustainable software with a lean ISO 14001 setup facilitated by the efiS framework</a><br /><em>Alexander Poth and Elisabeth Nunweiler</em></li>
+			<li><a href=''>Agile Teams Working from Home during the Covid-19 Pandemic: A Literature Review on New Advantages and Challenges</a><br /><em>Necmettin Ozkan, Oya Erdil and Mehmet Şahin Gök</em></li>
+			<li><a href=''>Effort Estimation in Agile Software Development: A Exploratory Study of Practitioners' Perspective</a><br /><em>Sandeep Rc, Mary Sánchez-Gordón, Ricardo Colomo-Palacios and Monica Kristiansen</em></li>
+			<li><a href=''>Project Management issues while using Agile Methodology</a><br /><em>Shariq Aziz Butt, Piñeres Espitia G, Paola Ariza-Colpas and Muhammad Imran Tariq</em></li>
+          </ul>
+        </td></tr>
+        <tr><td className='text-nowrap'>15:40 - 15:50</td><td>Conference closing </td></tr>
+      </tbody>
+    </Table>
 
   </Container>
 )
