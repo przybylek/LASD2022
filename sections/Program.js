@@ -1,14 +1,17 @@
 import Container from 'react-bootstrap/Container'
 import Table from 'react-bootstrap/Table'
 
+
 const Program = () => (
   <Container className="bg-light section">
     <a className='target' id='program'/>
     <h2 className='display-4 anchor'>Program</h2>
+    <p>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
 
+	
     <Table bordered>
       <tbody>	
-        <tr className='text-center table-primary'><th>Saturday, Jan. 23</th><th>Session 1 (Chair: <em>...</em>)</th></tr>
+        <tr className='text-center table-primary'><th>Saturday, Jan. 22</th><th>Session 1 (Chair: <em>...</em>)</th></tr>
 		<tr><td className='text-nowrap'>11:05 - 11:10</td><td>Connectivity and Webex testing</td></tr>
         <tr><td className='text-nowrap'>11:10 - 11:20</td><td>Conference opening; <em>Adam Przybyłek</em></td></tr>
         <tr><td className='text-nowrap'>11:20 - 12:15</td><td>Promises of Model-Driven Development in an Agile Context; <em>Raman Ramsin</em></td></tr>
@@ -22,7 +25,7 @@ const Program = () => (
           </ul>
         </td></tr>
         <tr><th className='text-center table-secondary' colSpan={2}>Break </th></tr>
-        <tr className='text-center table-primary'><th>Saturday, Jan. 23</th><th>Session 2 (Chair: <em>...</em>)</th></tr>
+        <tr className='text-center table-primary'><th>Saturday, Jan. 22</th><th>Session 2 (Chair: <em>...</em>)</th></tr>
         <tr><td className='text-nowrap'>14:00 - 14:55</td><td>Agility in Software 2.0 – Notebook Interfaces and MLOps with Buttresses and Rebars <br /><em>Markus Borg</em></td></tr>
         <tr><td className='text-nowrap'>14:55 - 15:40</td><td>Q&A:
           <ul>
