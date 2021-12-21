@@ -30,11 +30,11 @@ const Program = () => (
         <tr><td className='text-nowrap'>14:55 - 15:40</td><td>Q&A:
           <ul>
 			<li><a href=''>Impact of Turkish National Culture on Agile Software Development in Turkey</a><br /><em>Aysegul Gelmis, Necmettin Ozkan, Ali J. Ahmad and Mehmet Guray Guler</em></li>
-			<li><a href=''>The Integrated List of Agile Practices - A Tertiary Study</a><br /><em>Michael Neumann</em></li>
+			<li><a href='https://youtu.be/MfIs3ADWNuQ'>The Integrated List of Agile Practices - A Tertiary Study</a><br /><em>Michael Neumann</em></li>
 			<li><a href=''>Develop sustainable software with a lean ISO 14001 setup facilitated by the efiS framework</a><br /><em>Alexander Poth and Elisabeth Nunweiler</em></li>
 			<li><a href=''>Agile Teams Working from Home during the Covid-19 Pandemic: A Literature Review on New Advantages and Challenges</a><br /><em>Necmettin Ozkan, Oya Erdil and Mehmet Şahin Gök</em></li>
 			<li><a href=''>Effort Estimation in Agile Software Development: A Exploratory Study of Practitioners' Perspective</a><br /><em>Sandeep Rc, Mary Sánchez-Gordón, Ricardo Colomo-Palacios and Monica Kristiansen</em></li>
-			<li><a href=''>Project Management issues while using Agile Methodology</a><br /><em>Shariq Aziz Butt, Piñeres Espitia G, Paola Ariza-Colpas and Muhammad Imran Tariq</em></li>
+			<li><a href='https://youtu.be/VKmxyvLQm5w'>Project Management issues while using Agile Methodology</a><br /><em>Shariq Aziz Butt, Piñeres Espitia G, Paola Ariza-Colpas and Muhammad Imran Tariq</em></li>
           </ul>
         </td></tr>
         <tr><td className='text-nowrap'>15:40 - 15:50</td><td>Conference closing </td></tr>
