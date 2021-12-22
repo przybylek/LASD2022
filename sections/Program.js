@@ -17,7 +17,7 @@ const Program = () => (
         <tr><td className='text-nowrap'>11:20 - 12:15</td><td>Promises of Model-Driven Development in an Agile Context; <em>Raman Ramsin</em></td></tr>
         <tr><td className='text-nowrap'>12:15 - 13:00</td><td>Q&A:
           <ul>
-			<li><a href=''>How a 4-day Work Week and Remote Work affect Agile Software Development Teams</a><br /><em>Julia Topp, Jan Hendrik Hille, Michael Neumann and David Mötefindt</em></li>
+			<li><a href='https://youtu.be/N07nq7xH7g0'>How a 4-day Work Week and Remote Work affect Agile Software Development Teams</a><br /><em>Julia Topp, Jan Hendrik Hille, Michael Neumann and David Mötefindt</em></li>
 			<li><a href=''>Modeling and model transformation as a service: Towards an agile approach to model-driven development</a><br /><em>Adel Vahdati and Raman Ramsin</em></li>
 			<li><a href=''>Towards Agile Mutation Testing using Branch Coverage based Prioritization Technique</a><br /><em>Sangharatna Godboley and Durga Prasad Mohapatra</em></li>
 			<li><a href=''>Agility based Coverage Improvement</a><br /><em>Swadhin Kumar Barisal, Arpita Dutta, Sangharatna Godboley, Bibhudatta Sahoo and Durga Prasad Mohapatra</em></li>
