@@ -16,7 +16,7 @@ const Header = () => (
     <p className='text-center lead text-info font-italic'>Free of charge, with Springer LNBIP proceedings!</p>
     <p className='text-center lead text-info font-italic'>Corresponding authors of 15 top-rated accepted papers will get complimentary 1 year membership in <a href='https://www.agilealliance.org'>Agile Alliance</a>!</p>
     <p className='text-center lead'><small><sup>*</sup>The conference will consist of pre-recorded presentations, live keynote, and Q&A sessions.</small></p>
-    <p className='text-center lead'><a href='https://forms.gle/FHFopHtDSBWePTQT8'>Online Registration</a></p>
+    <p className='text-center lead badge badge-warning'><a href='https://forms.gle/FHFopHtDSBWePTQT8'>Online Registration</a></p>
   </Jumbotron>
 )
 
