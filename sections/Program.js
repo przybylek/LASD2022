@@ -1,11 +1,34 @@
 import Container from 'react-bootstrap/Container'
 import Table from 'react-bootstrap/Table'
+import Image from 'react-bootstrap/Image'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 
 const Program = () => (
   <Container className="bg-light section">
     <a className='target' id='program'/>
-    <h2 className='display-4 anchor'>Program</h2>
+    <h2 className='display-4 anchor'>Program and Proceedings</h2>
+
+    <Row className="justify-content-center">
+      <Col xs lg="1"> 
+      </Col>
+
+      <Col xs lg="2"> 
+        <Image fluid src='/LNBIP_LASD22.jpg' alt='LNBIP_LASD22'/>
+      </Col>
+      <Col>
+        <p>
+	<h3>Lean and Agile Software Development</h3>
+	<h4>6th International Conference, LASD 2022, Virtual Event, January 22, 2022, Proceedings</h4>
+	<h3>Free online access to <a href="https://link.springer.com/book/10.1007/978-3-030-94238-0">LNBIP, volume 438</a></h3>          
+        </p>
+      </Col>
+      <Col xs lg="1"> 
+      </Col>
+
+    </Row>
+
     <p>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
 
 	
