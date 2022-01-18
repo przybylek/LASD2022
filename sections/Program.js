@@ -42,7 +42,7 @@ class Program extends React.Component {
     <a className='target' id='program'/>
     <h2 className='display-4 anchor my-4'>Program and Proceedings</h2>
 
-    <Row className="justify-content-center">
+    <Row className="justify-content-center my-5">
       <Col xs lg="1"> 
       </Col>
 
@@ -50,19 +50,16 @@ class Program extends React.Component {
         <Image fluid src='/LNBIP_LASD22.jpg' alt='LNBIP_LASD22'/>
       </Col>
       <Col>
-        <p>
-	<h3>Lean and Agile Software Development</h3>
-	<h4>6th International Conference, LASD 2022, Virtual Event, January 22, 2022, Proceedings</h4>
-	<h3>Free online access to <a href="https://link.springer.com/book/10.1007/978-3-030-94238-0">LNBIP, volume 438</a></h3>          
-        </p>
+	<h4>Lean and Agile Software Development</h4>
+	<h5>6th International Conference, LASD 2022, Virtual Event, January 22, 2022, Proceedings</h5>
+	<h4>Free online access to <a href="https://link.springer.com/book/10.1007/978-3-030-94238-0">LNBIP, volume 438</a></h4>          
+    	<p className='mt-4'>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
+    	<p>Current Time: <Moment className='font-weight-bold'>{localDataTime}</Moment></p>
       </Col>
       <Col xs lg="1"> 
       </Col>
 
     </Row>
-
-    <p className='mt-4'>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
-    <p className='mb-4'>Current Time: <Moment className='font-weight-bold'>{localDataTime}</Moment></p>
 
 	
     <Table bordered>
@@ -85,7 +82,7 @@ class Program extends React.Component {
         <tr><td className='text-nowrap'>14:00 - 14:55</td><td>Agility in Software 2.0 – Notebook Interfaces and MLOps with Buttresses and Rebars <br /><em>Markus Borg</em></td></tr>
         <tr><td className='text-nowrap'>14:55 - 15:40</td><td>Q&A:
 		      <ul>
-			<li><a href=''>Impact of Turkish National Culture on Agile Software Development in Turkey</a><br /><em>Aysegul Gelmis, Necmettin Ozkan, Ali J. Ahmad and Mehmet Guray Guler</em></li>
+			<li><a href='https://youtu.be/GbWTGMHa4nI'>Impact of Turkish National Culture on Agile Software Development in Turkey</a><br /><em>Aysegul Gelmis, Necmettin Ozkan, Ali J. Ahmad and Mehmet Guray Guler</em></li>
 			<li><a href='https://youtu.be/MfIs3ADWNuQ'>The Integrated List of Agile Practices - A Tertiary Study</a><br /><em>Michael Neumann</em></li>
 			<li><a href='https://youtu.be/kICMBmkRgyE'>Develop sustainable software with a lean ISO 14001 setup facilitated by the efiS framework</a><br /><em>Alexander Poth and Elisabeth Nunweiler</em></li>
 			<li><a href='https://youtu.be/nsXcI6fpjyw'>Agile Teams Working from Home during the Covid-19 Pandemic: A Literature Review on New Advantages and Challenges</a><br /><em>Necmettin Ozkan, Oya Erdil and Mehmet Şahin Gök</em></li>
