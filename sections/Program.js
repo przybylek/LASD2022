@@ -4,11 +4,40 @@ import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+import React from 'react';
+import Moment from 'react-moment';
+import 'moment-timezone';
+
 /*
-import Moment from 'react-bootstrap/Moment';
+const Program = () => (
 */
 
-const Program = () => (
+/*
+export default function Program() {
+*/
+
+class Program extends React.Component {
+
+  state = new Date();
+
+  componentDidMount() {
+        this.interval = setInterval(() => {
+            const now = new Date();
+            this.setState(now);
+        }, 1000);
+  }
+
+  componentWillUnmount() {
+    if (this.interval) {
+      clearInterval(this.interval);
+    }
+  }
+
+  render() {
+    const localDataTime = this.state;
+	
+    return (
+
   <Container className="bg-light section pb-4">
     <a className='target' id='program'/>
     <h2 className='display-4 anchor my-4'>Program and Proceedings</h2>
@@ -32,12 +61,13 @@ const Program = () => (
 
     </Row>
 
-    <p className='my-4'>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
+    <p className='mt-4'>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
+    <p className='mb-4'>Current Time: <Moment className='font-weight-bold'>{localDataTime}</Moment></p>
 
 	
     <Table bordered>
       <tbody>	
-        <tr className='text-center table-primary'><th>Saturday, Jan. 22</th><th>Session 1 (Chair: <em>...</em>)</th></tr>
+        <tr className='text-center table-primary'><th>Saturday, Jan. 22</th><th>Session 1</th></tr>
 		<tr><td className='text-nowrap'>11:05 - 11:10</td><td>Connectivity and Webex testing</td></tr>
         <tr><td className='text-nowrap'>11:10 - 11:20</td><td>Conference opening; <em>Adam Przybyłek</em></td></tr>
         <tr><td className='text-nowrap'>11:20 - 12:15</td><td>Promises of Model-Driven Development in an Agile Context; <em>Raman Ramsin</em></td></tr>
@@ -51,7 +81,7 @@ const Program = () => (
 		      </ul>
         </td></tr>
         <tr><th className='text-center table-secondary' colSpan={2}>Break </th></tr>
-        <tr className='text-center table-primary'><th>Saturday, Jan. 22</th><th>Session 2 (Chair: <em>...</em>)</th></tr>
+        <tr className='text-center table-primary'><th>Saturday, Jan. 22</th><th>Session 2</th></tr>
         <tr><td className='text-nowrap'>14:00 - 14:55</td><td>Agility in Software 2.0 – Notebook Interfaces and MLOps with Buttresses and Rebars <br /><em>Markus Borg</em></td></tr>
         <tr><td className='text-nowrap'>14:55 - 15:40</td><td>Q&A:
 		      <ul>
@@ -72,12 +102,17 @@ const Program = () => (
     </Table>
 
   </Container>
-)
+    );
+  }
+}
 
 export default Program
 
 
 /*
+
+    <p><Moment interval={1000} format="YYYY/MM/DD HH:mm:ss">{localDataTime}</Moment></p>
+
     <Table bordered>
       <tbody>
         <tr><th className='text-center table-primary' colSpan={2}>Session 1 (Chair: <em>...</em>)</th></tr>
