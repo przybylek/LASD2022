@@ -4,11 +4,14 @@ import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+/*
+import Moment from 'react-bootstrap/Moment';
+*/
 
 const Program = () => (
-  <Container className="bg-light section">
+  <Container className="bg-light section pb-4">
     <a className='target' id='program'/>
-    <h2 className='display-4 anchor'>Program and Proceedings</h2>
+    <h2 className='display-4 anchor my-4'>Program and Proceedings</h2>
 
     <Row className="justify-content-center">
       <Col xs lg="1"> 
@@ -29,7 +32,7 @@ const Program = () => (
 
     </Row>
 
-    <p>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
+    <p className='my-4'>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
 
 	
     <Table bordered>
@@ -39,28 +42,32 @@ const Program = () => (
         <tr><td className='text-nowrap'>11:10 - 11:20</td><td>Conference opening; <em>Adam Przybyłek</em></td></tr>
         <tr><td className='text-nowrap'>11:20 - 12:15</td><td>Promises of Model-Driven Development in an Agile Context; <em>Raman Ramsin</em></td></tr>
         <tr><td className='text-nowrap'>12:15 - 13:00</td><td>Q&A:
-          <ul>
+		      <ul>
 			<li><a href='https://youtu.be/N07nq7xH7g0'>How a 4-day Work Week and Remote Work affect Agile Software Development Teams</a><br /><em>Julia Topp, Jan Hendrik Hille, Michael Neumann and David Mötefindt</em></li>
 			<li><a href='https://youtu.be/acn0UhbAIHM'>Modeling and model transformation as a service: Towards an agile approach to model-driven development</a><br /><em>Adel Vahdati and Raman Ramsin</em></li>
 			<li><a href='https://drive.google.com/drive/folders/1-RtCBEX3ler-M6iLfXj0HhjXCAQ9yduV?usp=sharing'>Towards Agile Mutation Testing using Branch Coverage based Prioritization Technique</a><br /><em>Sangharatna Godboley and Durga Prasad Mohapatra</em></li>
 			<li><a href='https://youtu.be/K_9SeOx5NWo'>Agility based Coverage Improvement</a><br /><em>Swadhin Kumar Barisal, Arpita Dutta, Sangharatna Godboley, Bibhudatta Sahoo and Durga Prasad Mohapatra</em></li>
 			<li><a href='https://youtu.be/kKoVr_mh1lE'>A Complete Unit Test Framework for Agile Software Development</a><br /><em>Arpita Dutta</em></li>
-          </ul>
+		      </ul>
         </td></tr>
         <tr><th className='text-center table-secondary' colSpan={2}>Break </th></tr>
         <tr className='text-center table-primary'><th>Saturday, Jan. 22</th><th>Session 2 (Chair: <em>...</em>)</th></tr>
         <tr><td className='text-nowrap'>14:00 - 14:55</td><td>Agility in Software 2.0 – Notebook Interfaces and MLOps with Buttresses and Rebars <br /><em>Markus Borg</em></td></tr>
         <tr><td className='text-nowrap'>14:55 - 15:40</td><td>Q&A:
-          <ul>
+		      <ul>
 			<li><a href=''>Impact of Turkish National Culture on Agile Software Development in Turkey</a><br /><em>Aysegul Gelmis, Necmettin Ozkan, Ali J. Ahmad and Mehmet Guray Guler</em></li>
 			<li><a href='https://youtu.be/MfIs3ADWNuQ'>The Integrated List of Agile Practices - A Tertiary Study</a><br /><em>Michael Neumann</em></li>
 			<li><a href='https://youtu.be/kICMBmkRgyE'>Develop sustainable software with a lean ISO 14001 setup facilitated by the efiS framework</a><br /><em>Alexander Poth and Elisabeth Nunweiler</em></li>
-			<li><a href=''>Agile Teams Working from Home during the Covid-19 Pandemic: A Literature Review on New Advantages and Challenges</a><br /><em>Necmettin Ozkan, Oya Erdil and Mehmet Şahin Gök</em></li>
-			<li><a href='https://youtu.be/BLRPJS77Aq4'>Effort Estimation in Agile Software Development: A Exploratory Study of Practitioners' Perspective</a><br /><em>Sandeep Rc, Mary Sánchez-Gordón, Ricardo Colomo-Palacios and Monica Kristiansen</em></li>
+			<li><a href='https://youtu.be/nsXcI6fpjyw'>Agile Teams Working from Home during the Covid-19 Pandemic: A Literature Review on New Advantages and Challenges</a><br /><em>Necmettin Ozkan, Oya Erdil and Mehmet Şahin Gök</em></li>
+			<li><a href='https://youtu.be/BLRPJS77Aq4'>Effort Estimation in Agile Software Development: A Exploratory Study of Practitioners’ Perspective</a><br /><em>Sandeep Rc, Mary Sánchez-Gordón, Ricardo Colomo-Palacios and Monica Kristiansen</em></li>
 			<li><a href='https://youtu.be/VKmxyvLQm5w'>Project Management issues while using Agile Methodology</a><br /><em>Shariq Aziz Butt, Piñeres Espitia G, Paola Ariza-Colpas and Muhammad Imran Tariq</em></li>
-          </ul>
+		      </ul>
         </td></tr>
-        <tr><td className='text-nowrap'>15:40 - 15:50</td><td>Conference closing </td></tr>
+        <tr><td className='text-nowrap'>15:40 - 15:50</td><td>Conference closing; <em>Ivan Luković</em>
+			<ul>
+			<li>Papers selected for post-conference publication in <a href="http://www.comsis.org">ComSIS</a> (IF: 1.167) and <a href="https://www.journals.elsevier.com/journal-of-computer-languages">Cola</a> (IF: 1.271)</li>
+			<li>Other opportunities for 2022: <a href="https://adbis2022.polito.it/">MADEISD@ADBIS</a>, <a href="https://www.fedcsis.org/2022/mdasd">MDASD@FedCSIS</a>, <a href="https://www.fedcsis.org/2022/pers">PeRS@FedCSIS</a></li>		
+			</ul></td></tr>
       </tbody>
     </Table>
 
