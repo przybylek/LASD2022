@@ -12,7 +12,7 @@ const conferences = [
   },
   {
     title: "LASD@FedCSIS'20",
-    location: "Sofia 2020",
+    location: "Virtual Event 2020",
     website: "https://www.fedcsis.org/2020/lasd",
     proceedings: "https://annals-csis.org/Volume_21/#H4LASD",
   },

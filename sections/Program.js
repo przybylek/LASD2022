@@ -8,14 +8,6 @@ import React from 'react';
 import Moment from 'react-moment';
 import 'moment-timezone';
 
-/*
-const Program = () => (
-*/
-
-/*
-export default function Program() {
-*/
-
 class Program extends React.Component {
 
   state = new Date();
@@ -79,7 +71,7 @@ class Program extends React.Component {
         </td></tr>
         <tr><th className='text-center table-secondary' colSpan={2}>Break </th></tr>
         <tr className='text-center table-primary'><th>Saturday, Jan. 22</th><th>Session 2</th></tr>
-        <tr><td className='text-nowrap'>14:00 - 14:55</td><td>Agility in Software 2.0 – Notebook Interfaces and MLOps with Buttresses and Rebars <br /><em>Markus Borg</em></td></tr>
+        <tr><td className='text-nowrap'>14:00 - 14:55</td><td><a href='https://youtu.be/OJIz8aOGbHI'>Agility in Software 2.0 – Notebook Interfaces and MLOps with Buttresses and Rebars</a><br /><em>Markus Borg</em></td></tr>
         <tr><td className='text-nowrap'>14:55 - 15:40</td><td>Q&A:
 		      <ul>
 			<li><a href='https://youtu.be/GbWTGMHa4nI'>Impact of Turkish National Culture on Agile Software Development in Turkey</a><br /><em>Aysegul Gelmis, Necmettin Ozkan, Ali J. Ahmad and Mehmet Guray Guler</em></li>
@@ -93,7 +85,7 @@ class Program extends React.Component {
         <tr><td className='text-nowrap'>15:40 - 15:50</td><td>Conference closing; <em>Ivan Luković</em>
 			<ul>
 			<li>Papers selected for post-conference publication in <a href="http://www.comsis.org">ComSIS</a> (IF: 1.167) and <a href="https://www.journals.elsevier.com/journal-of-computer-languages">Cola</a> (IF: 1.271)</li>
-			<li>Other opportunities for 2022: <a href="https://adbis2022.polito.it/">MADEISD@ADBIS</a>, <a href="https://www.fedcsis.org/2022/mdasd">MDASD@FedCSIS</a>, <a href="https://www.fedcsis.org/2022/pers">PeRS@FedCSIS</a></li>		
+			<li>Other opportunities for 2022: <a href="https://adbis2022.polito.it/">MADEISD@ADBIS</a>, <a href="https://www.fedcsis.org/2022/s3e">Track5@FedCSIS</a>, <a href="https://www.fedcsis.org/2022/mdasd">MDASD@FedCSIS</a>, <a href="https://www.fedcsis.org/2022/pers">PeRS@FedCSIS</a>, <a href="http://kes2022.kesinternational.org/cms/userfiles/is25.pdf">IADSDTP@KES</a> </li>		
 			</ul></td></tr>
       </tbody>
     </Table>
