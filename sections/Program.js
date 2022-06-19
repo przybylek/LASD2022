@@ -44,7 +44,7 @@ class Program extends React.Component {
       <Col>
 	<h4>Lean and Agile Software Development</h4>
 	<h5>6th International Conference, LASD 2022, Virtual Event, January 22, 2022, Proceedings</h5>
-	<h4>Free online access to <a href="https://link.springer.com/book/10.1007/978-3-030-94238-0">LNBIP, volume 438</a></h4>          
+	<h4><a href="https://link.springer.com/book/10.1007/978-3-030-94238-0">LNBIP, volume 438</a></h4>          
     	<p className='mt-4'>Time zone of the conference: GMT+1 (Central European Standard Time)</p>
     	<p>Current Time: <Moment className='font-weight-bold'>{localDataTime}</Moment></p>
       </Col>
@@ -85,7 +85,7 @@ class Program extends React.Component {
         <tr><td className='text-nowrap'>15:40 - 15:50</td><td>Conference closing; <em>Ivan Luković</em>
 			<ul>
 			<li>Papers selected for post-conference publication in <a href="http://www.comsis.org">ComSIS</a> (IF: 1.167) and <a href="https://www.journals.elsevier.com/journal-of-computer-languages">Cola</a> (IF: 1.271)</li>
-			<li>Other opportunities for 2022: <a href="https://adbis2022.polito.it/">MADEISD@ADBIS</a>, <a href="https://www.fedcsis.org/2022/s3e">Track5@FedCSIS</a>, <a href="https://www.fedcsis.org/2022/mdasd">MDASD@FedCSIS</a>, <a href="https://www.fedcsis.org/2022/pers">PeRS@FedCSIS</a>, <a href="http://kes2022.kesinternational.org/cms/userfiles/is25.pdf">IADSDTP@KES</a> </li>		
+			<li>Other opportunities for 2022: <a href="http://www.acs.uns.ac.rs/adbis2022/">MADEISD@ADBIS</a>, <a href="https://www.fedcsis.org/2022/s3e">Track5@FedCSIS</a>, <a href="https://www.fedcsis.org/2022/mdasd">MDASD@FedCSIS</a>, <a href="https://www.fedcsis.org/2022/pers">PeRS@FedCSIS</a>, <a href="http://kes2022.kesinternational.org/cms/userfiles/is25.pdf">IADSDTP@KES</a> </li>		
 			</ul></td></tr>
       </tbody>
     </Table>
@@ -99,6 +99,7 @@ export default Program
 
 
 /*
+<h4>Free online access to <a href="https://link.springer.com/book/10.1007/978-3-030-94238-0">LNBIP, volume 438</a></h4>
 
     <p><Moment interval={1000} format="YYYY/MM/DD HH:mm:ss">{localDataTime}</Moment></p>
 

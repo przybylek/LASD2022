@@ -7,7 +7,7 @@ const conferences = [
   {
     title: "LASD'21",
     location: "Virtual Event 2021",
-    website: "https://lasd.netlify.app",
+    website: "https://y2021.lasd.pl",
     proceedings: "https://link.springer.com/book/10.1007/978-3-030-67084-9",
   },
   {
